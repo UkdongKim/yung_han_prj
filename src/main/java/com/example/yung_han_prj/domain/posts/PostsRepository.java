@@ -1,6 +1,9 @@
 package com.example.yung_han_prj.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import java.util.List;
 
 public interface PostsRepository extends JpaRepository<Posts, Long> {
     /*보통 mybatis 에서 dao 라고 불리는 db layer 접근자
@@ -9,4 +12,7 @@ public interface PostsRepository extends JpaRepository<Posts, Long> {
      * 기본적인 crud 메소드가 자동으로 생성됨.
      * Entity클래스 와 Repository 는 같은곳에 위치해야함. 밀접한 관계
      * */
+
+    @Query("SELECT p FROM Posts p ORDER BY p.id DESC")
+    List<Posts> findAllDesc();
 }
