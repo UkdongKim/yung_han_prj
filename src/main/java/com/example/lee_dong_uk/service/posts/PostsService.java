@@ -1,11 +1,11 @@
-package com.example.yung_han_prj.service.posts;
+package com.example.lee_dong_uk.service.posts;
 
-import com.example.yung_han_prj.domain.posts.Posts;
-import com.example.yung_han_prj.domain.posts.PostsRepository;
-import com.example.yung_han_prj.web.dto.PostsListResponseDto;
-import com.example.yung_han_prj.web.dto.PostsResponseDto;
-import com.example.yung_han_prj.web.dto.PostsSaveRequestDto;
-import com.example.yung_han_prj.web.dto.PostsUpdateRequestDto;
+import com.example.lee_dong_uk.domain.posts.Posts;
+import com.example.lee_dong_uk.domain.posts.PostsRepository;
+import com.example.lee_dong_uk.web.dto.PostsListResponseDto;
+import com.example.lee_dong_uk.web.dto.PostsResponseDto;
+import com.example.lee_dong_uk.web.dto.PostsSaveRequestDto;
+import com.example.lee_dong_uk.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

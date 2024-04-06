@@ -1,4 +1,4 @@
-package com.example.yung_han_prj;
+package com.example.lee_dong_uk;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

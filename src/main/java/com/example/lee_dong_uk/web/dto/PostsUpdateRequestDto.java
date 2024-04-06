@@ -1,4 +1,4 @@
-package com.example.yung_han_prj.web.dto;
+package com.example.lee_dong_uk.web.dto;
 
 import lombok.Builder;
 import lombok.Getter;

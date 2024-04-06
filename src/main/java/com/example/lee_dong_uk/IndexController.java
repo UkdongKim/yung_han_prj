@@ -1,7 +1,7 @@
-package com.example.yung_han_prj;
+package com.example.lee_dong_uk;
 
-import com.example.yung_han_prj.service.posts.PostsService;
-import com.example.yung_han_prj.web.dto.PostsResponseDto;
+import com.example.lee_dong_uk.web.dto.PostsResponseDto;
+import com.example.lee_dong_uk.service.posts.PostsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

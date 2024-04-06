@@ -1,9 +1,9 @@
-package com.example.yung_han_prj;
+package com.example.lee_dong_uk;
 
-import com.example.yung_han_prj.domain.posts.Posts;
-import com.example.yung_han_prj.domain.posts.PostsRepository;
-import com.example.yung_han_prj.web.dto.PostsSaveRequestDto;
-import com.example.yung_han_prj.web.dto.PostsUpdateRequestDto;
+import com.example.lee_dong_uk.domain.posts.Posts;
+import com.example.lee_dong_uk.domain.posts.PostsRepository;
+import com.example.lee_dong_uk.web.dto.PostsSaveRequestDto;
+import com.example.lee_dong_uk.web.dto.PostsUpdateRequestDto;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

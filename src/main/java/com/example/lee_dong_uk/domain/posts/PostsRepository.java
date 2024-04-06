@@ -1,4 +1,4 @@
-package com.example.yung_han_prj.domain.posts;
+package com.example.lee_dong_uk.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

@@ -1,6 +1,6 @@
-package com.example.yung_han_prj.web.dto;
+package com.example.lee_dong_uk.web.dto;
 
-import com.example.yung_han_prj.domain.posts.Posts;
+import com.example.lee_dong_uk.domain.posts.Posts;
 import lombok.Getter;
 
 import java.time.LocalDateTime;

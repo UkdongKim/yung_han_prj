@@ -1,4 +1,4 @@
-package com.example.yung_han_prj.web.dto;
+package com.example.lee_dong_uk.web.dto;
 
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;

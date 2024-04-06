@@ -1,6 +1,6 @@
-package com.example.yung_han_prj.domain.posts;
+package com.example.lee_dong_uk.domain.posts;
 
-import com.example.yung_han_prj.domain.BaseTimeEntity;
+import com.example.lee_dong_uk.domain.BaseTimeEntity;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;

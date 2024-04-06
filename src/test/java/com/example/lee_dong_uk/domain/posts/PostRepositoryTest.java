@@ -1,4 +1,4 @@
-package com.example.yung_han_prj.domain.posts;
+package com.example.lee_dong_uk.domain.posts;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
