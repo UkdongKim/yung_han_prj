@@ -27,6 +27,8 @@ dependencies {
     implementation('com.h2database:h2')
     //mustache
     compileOnly('org.springframework.boot:spring-boot-starter-mustache')
+    //spring_security 설정
+    compileOnly('org.springframework.boot:spring-boot-starter-oauth2-client')
 }
 
 tasks.named('bootBuildImage') {
