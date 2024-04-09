@@ -29,6 +29,8 @@ dependencies {
     compileOnly('org.springframework.boot:spring-boot-starter-mustache')
     //spring_security 설정
     compileOnly('org.springframework.boot:spring-boot-starter-oauth2-client')
+    // mysql 연결 (세션 저장하여 재실행시에도 로그아웃 되지 않도록)
+    compileOnly('org.springframework.session:spring-session-jdbc')
 }
 
 tasks.named('bootBuildImage') {

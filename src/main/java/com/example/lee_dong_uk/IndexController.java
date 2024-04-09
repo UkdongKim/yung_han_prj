@@ -1,7 +1,10 @@
 package com.example.lee_dong_uk;
 
+import com.example.lee_dong_uk.config.auth.LoginUser;
+import com.example.lee_dong_uk.config.auth.dto.SessionUser;
 import com.example.lee_dong_uk.web.dto.PostsResponseDto;
 import com.example.lee_dong_uk.service.posts.PostsService;
+import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,10 +17,19 @@ public class IndexController {
 
 
     private final PostsService postsService;
+    private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model){
+    public String index(Model model, @LoginUser SessionUser user){
         model.addAttribute("posts", postsService.findAllDesc());
+
+//        어노테이션으로 대체
+//        SessionUser user = (SessionUser) httpSession.getAttribute("user");
+
+        if (user != null){
+            model.addAttribute("userName", user.getName());
+        }
+
         return "index";
     }
 
