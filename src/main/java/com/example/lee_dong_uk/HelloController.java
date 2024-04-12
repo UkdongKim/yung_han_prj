@@ -21,4 +21,9 @@ public class HelloController {
         return "hello";
     }
 
+    @GetMapping("/api/data")
+    public String test(){
+        return "hello, world !!";
+    }
+
 }
